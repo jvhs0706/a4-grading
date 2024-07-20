@@ -22,10 +22,5 @@ if __name__ == '__main__':
         # cat testX/input.txt - | ./canonical_exec
         os.system(f'cat test{i}/input.txt - | ./canonical_exec')
 
-    # cd into the submission directory
-    os.chdir('submission')
-    # run make to compile the code
-    os.system('make')
-
     scpclient.close()
     client.close()

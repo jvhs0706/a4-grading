@@ -36,3 +36,4 @@ if __name__ == '__main__':
 
     scpclient.close()
     client.close()
+    print(f'Done grading the submission of {watiam}.')
